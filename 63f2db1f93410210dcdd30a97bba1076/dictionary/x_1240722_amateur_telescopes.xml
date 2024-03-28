@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1eff6b1393050210dcdd30a97bba107a" label="Telescopes" max_length="40" name="x_1240722_amateur_telescopes" type="collection">
+        <element choice="1" label="Manufacturer" mandatory="true" max_length="125" name="manufacturer" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sky-Watcher" sequence="0" value="sky-watcher"/>
+                <element inactive_on_update="false" label="Celestron" sequence="1" value="celestron"/>
+                <element inactive_on_update="false" label="Orion Telescopes &amp; Binoculars" sequence="2" value="orion telescopes &amp; binoculars"/>
+                <element inactive_on_update="false" label="Meade Instruments" sequence="3" value="meade instruments"/>
+                <element inactive_on_update="false" label="Explore Scientific" sequence="4" value="explore scientific"/>
+                <element inactive_on_update="false" label="Bresser" sequence="5" value="bresser"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="Telescope Name" mandatory="true" max_length="125" name="telescope_name" type="string"/>
+        <element label="Aperture (mm)" max_length="40" name="u_aperture" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="u_description" type="string"/>
+        <element label="Focal Length (mm)" max_length="40" name="u_focal_length" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Telescope Type" mandatory="true" max_length="40" name="u_telescope_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Reflecting Telescope" sequence="0" value="reflecting telescope"/>
+                <element inactive_on_update="false" label="Refracting Telescope" sequence="1" value="refracting telescope"/>
+                <element inactive_on_update="false" label="Catadioptric Telescope" sequence="2" value="catadioptric telescope"/>
+            </choice>
+        </element>
+    </element>
+</database>

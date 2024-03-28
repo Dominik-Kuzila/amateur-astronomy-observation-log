@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Log observations of the night sky</description>
+        <device_type>browser</device_type>
+        <hint>Log observations of the night sky</hint>
+        <name/>
+        <order/>
+        <roles>x_1240722_amateur.observer</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 15:41:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cba99f5f93410210dcdd30a97bba10f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amateur Astronomy Observation Log</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Amateur Astronomy Observation Log" source="x_1240722_amateur">63f2db1f93410210dcdd30a97bba1076</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Amateur Astronomy Observation Log">63f2db1f93410210dcdd30a97bba1076</sys_scope>
+        <sys_update_name>sys_app_application_cba99f5f93410210dcdd30a97bba10f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 15:41:45</sys_updated_on>
+        <title>Amateur Astronomy Observation Log</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

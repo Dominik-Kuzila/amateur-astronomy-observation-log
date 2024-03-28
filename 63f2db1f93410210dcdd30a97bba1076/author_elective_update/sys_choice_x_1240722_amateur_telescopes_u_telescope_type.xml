@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_telescope_type" table="x_1240722_amateur_telescopes" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_telescope_type</element>
+            <name>x_1240722_amateur_telescopes</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 19:51:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_telescope_type</sys_name>
+            <sys_package display_value="Amateur Astronomy Observation Log" source="x_1240722_amateur">63f2db1f93410210dcdd30a97bba1076</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Amateur Astronomy Observation Log">63f2db1f93410210dcdd30a97bba1076</sys_scope>
+            <sys_update_name>sys_choice_x_1240722_amateur_telescopes_u_telescope_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:51:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_telescope_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reflecting Telescope</label>
+            <language>en</language>
+            <name>x_1240722_amateur_telescopes</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 19:51:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:51:12</sys_updated_on>
+            <value>reflecting telescope</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_telescope_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Refracting Telescope</label>
+            <language>en</language>
+            <name>x_1240722_amateur_telescopes</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 19:51:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:51:12</sys_updated_on>
+            <value>refracting telescope</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_telescope_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Catadioptric Telescope</label>
+            <language>en</language>
+            <name>x_1240722_amateur_telescopes</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 19:51:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 19:51:12</sys_updated_on>
+            <value>catadioptric telescope</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

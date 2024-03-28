@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="edf61b5393810210dcdd30a97bba10dd" label="Observation Log" max_length="40" name="x_1240722_amateur_observation_log" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Location" mandatory="true" max_length="125" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="500" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Observation End" mandatory="true" max_length="40" name="observation_end" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Observation Start" mandatory="true" max_length="40" name="observation_start" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Observer" mandatory="true" max_length="32" name="observer" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="naked eye" label="Type of Equipment used" mandatory="true" max_length="40" name="u_equipment_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Naked Eye" sequence="0" value="naked eye"/>
+                <element inactive_on_update="false" label="Telescope" sequence="1" value="telescope"/>
+                <element inactive_on_update="false" label="Binoculars" sequence="2" value="binoculars"/>
+                <element inactive_on_update="false" label="Camera" sequence="3" value="camera"/>
+            </choice>
+        </element>
+        <element label="Observation Time" max_length="40" name="u_observation_time" read_only="true" type="glide_duration"/>
+        <element choice="3" default="3" label="Seeing" mandatory="true" max_length="40" name="u_seeing" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Bad" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Poor" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Average" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - Good" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5 - Excellent" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Telescope Used" mandatory="true" max_length="32" name="u_telescope_used" reference="x_1240722_amateur_telescopes" type="reference"/>
+        <element attributes="encode_utf8=false" label="Telescope Used" mandatory="true" max_length="32" name="u_telescope_usedtelescope_name" reference="x_1240722_amateur_telescopes" type="reference"/>
+        <element choice="3" default="3" label="Transparency" mandatory="true" max_length="40" name="u_transparency" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Bad" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Poor" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Average" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - Good" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5 - Excellent" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="observer"/>
+        </index>
+        <index name="index2">
+            <element name="u_telescope_used"/>
+        </index>
+        <index name="index3">
+            <element name="u_telescope_usedtelescope_name"/>
+        </index>
+    </element>
+</database>
