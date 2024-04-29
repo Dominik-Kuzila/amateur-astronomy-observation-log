@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>df1432d493910210dcdd30a97bba1055</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Observation start/end check</sys_name>
         <sys_overrides/>
         <sys_package display_value="Amateur Astronomy Observation Log" source="x_1240722_amateur">63f2db1f93410210dcdd30a97bba1076</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Amateur Astronomy Observation Log">63f2db1f93410210dcdd30a97bba1076</sys_scope>
         <sys_update_name>sys_script_df1432d493910210dcdd30a97bba1055</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-10 18:42:25</sys_updated_on>
+        <sys_updated_on>2024-04-11 14:53:43</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
